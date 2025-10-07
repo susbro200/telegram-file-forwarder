@@ -57,7 +57,7 @@ GROUP_ID = -1001234567890  # 👥 Your group ID
 
 ### 5. Run the Bot
 ```bash
-python bot.py
+python main.py
 ```
 
 ## 📖 How to Use
