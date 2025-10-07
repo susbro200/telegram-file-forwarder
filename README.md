@@ -1,21 +1,22 @@
-
 # 🤖 Telegram File Forwarder Bot
 
 [![Python](https://img.shields.io/badge/Python-3.6+-blue.svg)](https://python.org)
 [![Telegram Bot](https://img.shields.io/badge/Telegram%20Bot-API-green.svg)](https://core.telegram.org/bots)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![File Types](https://img.shields.io/badge/Files-All%20Types-red.svg)](#supported-file-types)
 
 A sophisticated Telegram bot that allows users to upload files, add custom names as hashtags, and automatically forwards them to your designated group with professional formatting.
 
 ## ✨ Features
 
-- 📁 **Multi-format Support**: Handles documents, photos, videos, and audio files
-- 🏷️ **Custom Hashtags**: Users can add personalized names as #hashtags
+- 📁 **Universal File Support**: Handles all file types including PDF, ZIP, RAR, PSD, TIF, photos, videos, and audio
+- 🏷️ **Smart Hashtags**: Automatically adds # to user names if forgotten
 - 💬 **Group Integration**: Seamlessly forwards files to your Telegram group
 - 🔄 **Interactive Flow**: Guided conversation for file naming
 - 🚫 **Cancel Operation**: Users can abort at any time with /cancel
 - 🛡️ **Error Handling**: Comprehensive error messages and validation
-- 📊 **Logging**: Detailed activity logging for monitoring
+- 📊 **Detailed Logging**: Complete activity logging for monitoring
+- 🎨 **Rich Captions**: Includes file type icons and names in captions
 
 ## 🚀 Setup Instructions
 
@@ -56,15 +57,15 @@ GROUP_ID = -1001234567890  # 👥 Your group ID
 
 ### 5. Run the Bot
 ```bash
-python main.py
+python bot.py
 ```
 
 ## 📖 How to Use
 
 1. **📤 Send File**: Upload any file to the bot
 2. **✏️ Name File**: When prompted, enter a name for the file
-3. **🏷️ Hashtag Format**: The bot will format it as #YourName
-4. **📤 Forward**: File appears in your group with the hashtag caption
+3. **🏷️ Smart Hashtag**: Bot automatically adds # if you forget
+4. **📤 Forward**: File appears in your group with rich caption
 5. **🚫 Cancel**: Use /cancel to abort at any time
 
 ## 🎮 Supported Commands
@@ -75,15 +76,27 @@ python main.py
 | `/help` | Usage instructions | `/help` |
 | `/cancel` | Abort current operation | `/cancel` |
 
+## 📁 Supported File Types
+
+| Category | Formats | Icon |
+|----------|---------|------|
+| **Documents** | PDF, DOC, DOCX, TXT, RTF, ODT, etc. | 📄 |
+| **Archives** | ZIP, RAR, 7Z, TAR, GZ, etc. | 📦 |
+| **Design** | PSD, AI, SVG, EPS, etc. | 🎨 |
+| **Images** | JPG, PNG, GIF, BMP, TIF, WEBP, etc. | 🖼️ |
+| **Videos** | MP4, MOV, AVI, MKV, FLV, etc. | 🎬 |
+| **Audio** | MP3, WAV, FLAC, AAC, OGG, etc. | 🎵 |
+
 ## 🛠️ Troubleshooting
 
 | Issue | Solution | Emoji |
 |-------|----------|-------|
 | **"Failed to send file"** | Verify bot is group member with send permissions | 🔍 |
 | **Bot not responding** | Check BOT_TOKEN and internet connection | 🌐 |
-| **Invalid Group ID** | Use @RawDataBot to get correct ID | 🆔 |
+| **Invalid Group ID** | Use @JsonDumpBot to get correct ID | 🆔 |
 | **Name not accepted** | Enter text after sending file | ✏️ |
-| **Unsupported file type** | Send document, photo, video or audio | 📁 |
+| **Unsupported file type** | Try sending as document if not recognized | 📁 |
+| **Double hashtags** | Bot automatically handles hashtag formatting | 🏷️ |
 
 ## 🔒 Security Notes
 
@@ -92,10 +105,11 @@ python main.py
 - 🔄 Regularly update dependencies: `pip install --upgrade -r requirements.txt`
 - 📝 Monitor bot usage and logs for suspicious activity
 - 🛡️ Keep your bot code private and secure
+- 👥 Only add bot to trusted groups
 
 ## 📄 License
 
-This project is licensed under the MIT License - feel free to use and modify
+This project is licensed under the MIT License 
 
 ## 🤝 Contributing
 
@@ -118,3 +132,4 @@ If you encounter any issues or have questions:
 ---
 
 Made with ❤️ by [xPOURY4](https://github.com/xPOURY4)
+
